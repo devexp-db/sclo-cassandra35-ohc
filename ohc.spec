@@ -42,6 +42,7 @@ BuildRequires:	%{?scl_prefix}slf4j-ext
 BuildRequires:	%{?scl_prefix_java_common}javassist
 BuildRequires:	%{?scl_prefix_maven}cal10n
 BuildRequires:	%{?scl_prefix}jopt-simple
+BuildRequires:	%{?scl_prefix}snakeyaml
 # missing test dependency
 #BuildRequires:	mvn(org.hamcrest:java-hamcrest)
 %{?scl:Requires: %scl_runtime}
